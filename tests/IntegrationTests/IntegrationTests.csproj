@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="DryIoc.Microsoft.DependencyInjection" Version="6.1.0" />
+		<PackageReference Include="Grace.DependencyInjection.Extensions" Version="7.1.0" />
+		<PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="LightInject.Microsoft.DependencyInjection" Version="3.6.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="Stashbox.Extensions.Dependencyinjection" Version="4.5.3" />
+		<PackageReference Include="StructureMap.Microsoft.DependencyInjection" Version="2.0.0" />
+		<PackageReference Include="Unity.Microsoft.DependencyInjection" Version="5.11.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\Microsoft.Extensions.DependencyInjection.Keyed\Microsoft.Extensions.DependencyInjection.Keyed.csproj" />
+	</ItemGroup>
+
+</Project>
