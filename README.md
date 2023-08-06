@@ -1,4 +1,7 @@
-﻿# Overview
+﻿:mega: This repository has been superceded by the [Keyed Services](https://github.com/commonsensesoftware/more-keyed-services) repository.
+
+# Overview
+
 A proof-of-concept for keyed services with `Microsoft.Extensions.DependencyInjection` using a `Type` as universal key as opposed other approaches such as _magic_ strings.
 
 ## Background and Motivation
